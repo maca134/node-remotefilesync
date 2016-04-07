@@ -1,7 +1,7 @@
 {
    "name":"remotefilesync",
    "bin":"./bin/cmd.js",
-   "version":"1.0.0",
+   "version":"1.0.1",
    "description":"Something to sync files locally to a server",
    "main":"index.js",
    "scripts":{
