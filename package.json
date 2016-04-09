@@ -1,39 +1,38 @@
 {
-   "name":"remotefilesync",
-   "bin":"./bin/cmd.js",
-   "version":"1.0.4",
-   "description":"Something to sync files locally to a server",
-   "main":"index.js",
-   "scripts":{
-      "test":"echo \"Error: no test specified\" && exit 1"
-   },
-   "bugs":{
-      "url":"https://github.com/maca134/node-remotefilesync/issues"
-   },
-   "homepage":"https://github.com/maca134/node-remotefilesync",
-   "keywords":[
-      "sync"
-   ],
-   "repository":
-    {
-      "type" : "git",
-      "url" : "https://github.com/maca134/node-remotefilesync.git"
-    },
-   "publishConfig":{
-      "registry":"https://registry.npmjs.org/"
-   },
-   "author": {
-      "name": "Matthew McConnell",
-      "email": "maca134@googlemail.com",
-      "url": "https://github.com/maca134/node-remotefilesync"
-    },
-   "license":"MIT",
-   "dependencies":{
-      "async":"^1.5.2",
-      "chokidar":"^1.4.3",
-      "commander":"^2.9.0",
-      "fs-jetpack":"^0.7.3",
-      "minimatch":"^3.0.0",
-      "socket.io":"^1.4.5"
-   }
+  "name": "remotefilesync",
+  "bin": "./bin/cmd.js",
+  "version": "1.0.5",
+  "description": "Something to sync files locally to a server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/maca134/node-remotefilesync/issues"
+  },
+  "homepage": "https://github.com/maca134/node-remotefilesync",
+  "keywords": [
+    "sync"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maca134/node-remotefilesync.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": {
+    "name": "Matthew McConnell",
+    "email": "maca134@googlemail.com",
+    "url": "https://github.com/maca134/node-remotefilesync"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "chokidar": "^1.4.3",
+    "commander": "^2.9.0",
+    "fs-jetpack": "^0.7.3",
+    "minimatch": "^3.0.0",
+    "socket.io-client": "^1.4.5"
+  }
 }
